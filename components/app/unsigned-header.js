@@ -92,12 +92,12 @@ class Header extends HTMLElement {
     
       <header>
         <div class="container">
-          <a href="/">
+          <a href="../">
             <img src="./assets/images/logo.svg" alt="" />
           </a>
           <nav>
             <a href="#our-clients">Nossos clientes</a>
-            <a href="/our-solutions.html">Nossas soluções</a>
+            <a href="./our-solutions.html">Nossas soluções</a>
             <a href="#testimonies">Depoimentos</a>
             <a href="#discovery-vehicle">Vantagens</a>
           </nav>

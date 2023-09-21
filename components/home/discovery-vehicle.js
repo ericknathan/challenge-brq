@@ -74,7 +74,7 @@ class DiscoveryVehicleSection extends HTMLElement {
           <div class="texts-container">
             <h2>Flexibilidade e opções que se adequam em seu estilo de vida.</h2>
             <p>Uma plataforma de locação de veículos projetada para atender às suas necessidades específicas, oferecendo uma experiência de aluguel de veículos personalizada e conveniente.</p>
-            <a href="/form.html">
+            <a href="./form.html">
               <button data-variant="solid">
                 Cadastrar minha empresa
                 <img src="./assets/icons/ph_lightbulb.svg" alt="" />

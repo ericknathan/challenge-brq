@@ -109,7 +109,7 @@ class Header extends HTMLElement {
     
       <header>
         <div class="container">
-          <a href="/">
+          <a href="../">
             <img src="./assets/images/logo.svg" alt="" />
           </a>
           <div>

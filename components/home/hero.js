@@ -112,13 +112,13 @@ class HeroSection extends HTMLElement {
               </p>
             </div>
             <div class="buttons-container">
-              <a href="/form.html">
+              <a href="./form.html">
                 <button data-variant="solid" class="animate__animated animate__fadeInLeft">
                   Cadastrar minha empresa
                   <img src="./assets/icons/ph_lightbulb.svg" alt="" />
                 </button>
               </a>
-              <a href="/our-solutions.html">
+              <a href="./our-solutions.html">
                 <button data-variant="link" class="animate__animated animate__fadeInLeft animate__fast">
                   Nossas soluções
                 </button>
