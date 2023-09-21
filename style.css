@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafafa;
+  color: #18181b;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+button[data-variant] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+
+  height: 4rem;
+  padding: 0rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out;
+}
+
+a:has(button[data-variant]) {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:has(button[data-variant]):focus {
+  outline: none;
+}
+
+button[data-variant]:focus-visible {
+  outline: 1px solid white;
+  box-shadow: 0px 0px 0px 4px #18181b66;
+}
+
+button[data-variant]:hover,
+button[data-variant]:focus-visible {
+  filter: brightness(0.85);
+}
+
+button[data-variant="solid"] {
+  background-color: #18181b;
+  color: #fafafa;
+}
+
+button[data-variant="link"] {
+  color: #18181b;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1110px) {
+  html {
+    font-size: 87.5%;
+  }
+}

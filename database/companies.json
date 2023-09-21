@@ -1,0 +1,26 @@
+[
+  {
+    "id": "auto-ride",
+    "name": "Auto Ride",
+    "description": "Experimente a liberdade de dirigir o carro dos seus sonhos. Nossa locação oferece qualidade, variedade e preços acessíveis.",
+    "short_description": "Aluguel de carros",
+    "icon": "🚙",
+    "primary_color": "#1A4199"
+  },
+  {
+    "id": "agro-tracting",
+    "name": "Agro Tracting",
+    "description": "Aumente a produtividade da sua fazenda com nossos tratores agrícolas. Locação flexível e desempenho excepcional.",
+    "short_description": "Aluguel de tratores",
+    "icon": "🚜",
+    "primary_color": "#2B9943"
+  },
+  {
+    "id": "enter-fleet",
+    "name": "Enter Fleet",
+    "description": "Otimize a logística de sua empresa com nossa locação de caminhões de frota. Eficiência, confiabilidade e custos reduzidos.",
+    "short_description": "Aluguel de caminhões",
+    "icon": "🚚",
+    "primary_color": "#1F7A8C"
+  }
+]
