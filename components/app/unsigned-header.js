@@ -82,6 +82,9 @@ class Header extends HTMLElement {
           box-shadow: 0px 0px 0px 2px #1a419966;
         }
 
+        header a {
+          text-decoration: none;
+        }
         
         @media only screen and (max-width: 760px) {
           header nav {
@@ -92,19 +95,20 @@ class Header extends HTMLElement {
     
       <header>
         <div class="container">
-          <a href="../">
-            <img src="./assets/images/logo.svg" alt="" />
+          <a href="/">
+            <img src="/assets/images/logo.svg" alt="" />
           </a>
           <nav>
             <a href="#our-clients">Nossos clientes</a>
-            <a href="./our-solutions.html">Nossas soluções</a>
             <a href="#testimonies">Depoimentos</a>
             <a href="#discovery-vehicle">Vantagens</a>
           </nav>
-          <button>
-            <img src="./assets/images/avatar-fallback.svg" alt="" />
-            <span>Entrar</span>
-          </button>
+          <a href="/form/index.html">
+            <button>
+              <img src="/assets/images/avatar-fallback.svg" alt="" />
+              <span>Entrar</span>
+            </button>
+          </a>
         </div>
       </header>
     `;

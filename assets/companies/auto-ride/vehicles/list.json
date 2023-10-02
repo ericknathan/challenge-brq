@@ -1,0 +1,122 @@
+[
+  {
+    "id": "main",
+    "title": "Volkswagen T-Cross",
+    "description": "O T-Cross é o primeiro SUV produzido pela Volkswagen no Brasil. E chegou para revolucionar os padrões do segmento. Ele vem com muito mais dinamismo e inteligência tecnológica, características dos veículos produzidos.",
+    "brand": "Volkswagen",
+    "image": "main.png",
+    "month_value": 1976,
+    "fuel": "gasolina",
+    "tags": [
+      {
+        "name": "Veículo de passeio",
+        "icon": "car"
+      },
+      {
+        "name": "5 passageiros",
+        "icon": "users"
+      },
+      {
+        "name": "Sistema a bordo",
+        "icon": "airplay"
+      }
+    ],
+    "colors": [
+      "#EBEBEB"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Audi e-tron",
+    "description": "O T-Cross é o primeiro SUV produzido pela Volkswagen no Brasil. E chegou para revolucionar os padrões do segmento. Ele vem com muito mais dinamismo e inteligência tecnológica, características dos veículos produzidos.",
+    "brand": "Audi",
+    "image": "audi-e-tron.png",
+    "month_value": 2278,
+    "fuel": "gasolina",
+    "tags": [
+      {
+        "name": "Veículo de passeio",
+        "icon": "car"
+      },
+      {
+        "name": "5",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313",
+      "#C81919"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Mercedes-EQ EQA",
+    "description": "O T-Cross é o primeiro SUV produzido pela Volkswagen no Brasil. E chegou para revolucionar os padrões do segmento. Ele vem com muito mais dinamismo e inteligência tecnológica, características dos veículos produzidos.",
+    "brand": "Mercedes Benz",
+    "image": "mercedes-eq-eqa.png",
+    "fuel": "híbrido",
+    "month_value": 2173,
+    "tags": [
+      {
+        "name": "Veículo de passeio",
+        "icon": "car"
+      },
+      {
+        "name": "5",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Mercedes Hatch",
+    "description": "O T-Cross é o primeiro SUV produzido pela Volkswagen no Brasil. E chegou para revolucionar os padrões do segmento. Ele vem com muito mais dinamismo e inteligência tecnológica, características dos veículos produzidos.",
+    "brand": "Mercedes Benz",
+    "image": "mercedes-hatch.png",
+    "fuel": "elétrico",
+    "month_value": 2327,
+    "tags": [
+      {
+        "name": "Veículo esportivo",
+        "icon": "car"
+      },
+      {
+        "name": "5",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Audi A3 Sportback",
+    "description": "O T-Cross é o primeiro SUV produzido pela Volkswagen no Brasil. E chegou para revolucionar os padrões do segmento. Ele vem com muito mais dinamismo e inteligência tecnológica, características dos veículos produzidos.",
+    "brand": "Audi",
+    "image": "audi-a3-sportback.png",
+    "month_value": 2442,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo de passeio",
+        "icon": "car"
+      },
+      {
+        "name": "5",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313",
+      "#C81919"
+    ]
+  }
+]

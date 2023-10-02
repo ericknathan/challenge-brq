@@ -5,7 +5,9 @@
     "description": "Experimente a liberdade de dirigir o carro dos seus sonhos. Nossa locação oferece qualidade, variedade e preços acessíveis.",
     "short_description": "Aluguel de carros",
     "icon": "🚙",
-    "primary_color": "#1A4199"
+    "primary_color": "#1A4199",
+    "filter": "invert(19%) sepia(61%) saturate(2635%) hue-rotate(211deg) brightness(92%) contrast(93%)",
+    "brands": ["Audi", "Mercedes Benz", "Ford", "Tesla", "Jeep"]
   },
   {
     "id": "agro-tracting",
@@ -13,7 +15,15 @@
     "description": "Aumente a produtividade da sua fazenda com nossos tratores agrícolas. Locação flexível e desempenho excepcional.",
     "short_description": "Aluguel de tratores",
     "icon": "🚜",
-    "primary_color": "#2B9943"
+    "primary_color": "#2B9943",
+    "filter": "invert(45%) sepia(77%) saturate(419%) hue-rotate(81deg) brightness(91%) contrast(91%)",
+    "brands": [
+      "John Deere",
+      "New Holland",
+      "Massey Ferguson",
+      "Caterpillar",
+      "Case IH"
+    ]
   },
   {
     "id": "enter-fleet",
@@ -21,6 +31,8 @@
     "description": "Otimize a logística de sua empresa com nossa locação de caminhões de frota. Eficiência, confiabilidade e custos reduzidos.",
     "short_description": "Aluguel de caminhões",
     "icon": "🚚",
-    "primary_color": "#1F7A8C"
+    "primary_color": "#1F7A8C",
+    "filter": "invert(34%) sepia(65%) saturate(499%) hue-rotate(142deg) brightness(103%) contrast(91%)",
+    "brands": ["Audi", "Mercedes Benz", "Ford", "Tesla", "Jeep"]
   }
 ]

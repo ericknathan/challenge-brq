@@ -1,7 +1,7 @@
-const baseCompanyFolder = './assets/companies'
+const baseCompanyFolder = '/assets/companies'
 
 async function loadClients() {
-  const responseCompanies = await fetch("./database/companies.json");
+  const responseCompanies = await fetch("/assets/database/companies.json");
   const companies = await responseCompanies.json();
 
   const companyCardsContainer = document.getElementById("company-cards");
@@ -9,7 +9,7 @@ async function loadClients() {
   companies.forEach(({ name, description, icon, id, primary_color }) => {
     const companyCard = document.createElement("a");
     companyCard.classList.add("company-card");
-    companyCard.href = `./company.html?company=${id}`;
+    companyCard.href = `/company/index.html?company=${id}`;
     companyCard.style = `--primary-color: ${primary_color}`;
 
     const title = document.createElement("h4");

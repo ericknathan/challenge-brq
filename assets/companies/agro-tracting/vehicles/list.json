@@ -1,0 +1,116 @@
+[
+  {
+    "id": "main",
+    "title": "Trator John Deere 5065E",
+    "description": "O trator John Deere 5065E é uma máquina agrícola que traz alta performance e eficiência para o trabalho no campo. Equipado com tecnologia de ponta e uma potente motorização, ele oferece grande versatilidade e facilidade.",
+    "brand": "John Deere",
+    "image": "main.png",
+    "month_value": 1976,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo agrícola",
+        "icon": "steering-wheel"
+      },
+      {
+        "name": "1 passageiro",
+        "icon": "users"
+      },
+      {
+        "name": "Extensível",
+        "icon": "puzzle-piece"
+      }
+    ],
+    "colors": [
+      "#EBEBEB"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "John Deere Series 5E",
+    "description": "O trator John Deere 5065E é uma máquina agrícola que traz alta performance e eficiência para o trabalho no campo. Equipado com tecnologia de ponta e uma potente motorização, ele oferece grande versatilidade e facilidade.",
+    "brand": "John Deere",
+    "image": "john-deere-series-5e.png",
+    "month_value": 1317,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo agrícola",
+        "icon": "steering-wheel"
+      },
+      {
+        "name": "1",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#01A13F"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Massey Ferguson MF 6700",
+    "description": "O trator John Deere 5065E é uma máquina agrícola que traz alta performance e eficiência para o trabalho no campo. Equipado com tecnologia de ponta e uma potente motorização, ele oferece grande versatilidade e facilidade.",
+    "brand": "John Deere",
+    "image": "massey-ferguson-mf-6700.png",
+    "fuel": "elétrico",
+    "month_value": 1990,
+    "tags": [
+      {
+        "name": "Veículo agrícola",
+        "icon": "steering-wheel"
+      },
+      {
+        "name": "1",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#DD0B05"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Budny BDY-10040R",
+    "description": "O trator John Deere 5065E é uma máquina agrícola que traz alta performance e eficiência para o trabalho no campo. Equipado com tecnologia de ponta e uma potente motorização, ele oferece grande versatilidade e facilidade.",
+    "brand": "Caterpillar",
+    "image": "budny-bdy-10040r.png",
+    "fuel": "elétrico",
+    "month_value": 1955,
+    "tags": [
+      {
+        "name": "Veículo agrícola",
+        "icon": "steering-wheel"
+      },
+      {
+        "name": "1",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#EF8A29"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "New Holland T7 LWB",
+    "description": "O trator John Deere 5065E é uma máquina agrícola que traz alta performance e eficiência para o trabalho no campo. Equipado com tecnologia de ponta e uma potente motorização, ele oferece grande versatilidade e facilidade.",
+    "brand": "New Holland",
+    "image": "new-holland-t7-lwb.png",
+    "month_value": 1026,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo agrícola",
+        "icon": "steering-wheel"
+      },
+      {
+        "name": "1",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#324F91"
+    ]
+  }
+]

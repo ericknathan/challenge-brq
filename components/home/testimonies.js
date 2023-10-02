@@ -129,7 +129,7 @@ class TestimoniesSection extends HTMLElement {
             </div>
           </div>
         </div>
-        <video src="./assets/videos/testimony.mp4" autoplay loop muted></video>
+        <video src="/assets/videos/testimony.mp4" autoplay loop muted></video>
       </secti>
     `;
   }

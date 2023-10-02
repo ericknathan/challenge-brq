@@ -1,0 +1,76 @@
+#vehicle-data {
+  display: flex;
+  gap: 2rem;
+
+  height: calc(100% - 6.25rem);
+  padding: 3.5rem 0;
+}
+
+#vehicle-data > div {
+  width: 50%;
+}
+
+#vehicle-data > div#vehicle-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  height: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  border: 2px solid var(--primary);
+}
+
+#vehicle-data > div#vehicle-images header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#vehicle-data > div#vehicle-images header #brand-image {
+  filter: var(--primary-filter);
+}
+
+#vehicle-data > div#vehicle-images > img {
+  height: 100%;
+  object-fit: contain;
+}
+
+#vehicle-data > div#vehicle-texts {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+#vehicle-data > div#vehicle-texts h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+#vehicle-data > div#vehicle-texts .tags {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+#vehicle-data > div#vehicle-texts footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  margin-top: auto;
+}
+
+#vehicle-data > div#vehicle-texts footer h2 {
+  margin-right: auto;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+#vehicle-data > div#vehicle-texts footer h2 small {
+  font-size: 1rem;
+  font-weight: 500;
+}

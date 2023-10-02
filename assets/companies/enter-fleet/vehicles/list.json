@@ -1,0 +1,120 @@
+[
+  {
+    "id": "main",
+    "title": "Volkswagen Meteor 29.520",
+    "description": "Nasce um campeão! Forte, robusto e conectado o Meteor 29.520 é o novo extrapesado do Brasil! Cavalo mecânico com tração 6x4 indicado para o transporte rodoviário de carga para médias e longas distâncias.",
+    "brand": "Volkswagen",
+    "image": "main.png",
+    "month_value": 1678,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo pesado",
+        "icon": "truck"
+      },
+      {
+        "name": "3 passageiros",
+        "icon": "users"
+      },
+      {
+        "name": "Baú flexível",
+        "icon": "puzzle-piece"
+      }
+    ],
+    "colors": [
+      "#EBEBEB"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Mercedes Axor",
+    "description": "Nasce um campeão! Forte, robusto e conectado o Meteor 29.520 é o novo extrapesado do Brasil! Cavalo mecânico com tração 6x4 indicado para o transporte rodoviário de carga para médias e longas distâncias.",
+    "brand": "Mercedes Benz",
+    "image": "mercedes-axor.png",
+    "month_value": 1591,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo pesado",
+        "icon": "truck"
+      },
+      {
+        "name": "3",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "DAF CF Paccar GR-7",
+    "description": "Nasce um campeão! Forte, robusto e conectado o Meteor 29.520 é o novo extrapesado do Brasil! Cavalo mecânico com tração 6x4 indicado para o transporte rodoviário de carga para médias e longas distâncias.",
+    "brand": "Paccar",
+    "image": "daf-cd-paccar-gr-7.png",
+    "fuel": "elétrico",
+    "month_value": 1305,
+    "tags": [
+      {
+        "name": "Veículo pesado",
+        "icon": "truck"
+      },
+      {
+        "name": "3",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#00BFE6",
+      "#131313",
+      "#C81919"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Iveco Hi-Road",
+    "description": "Nasce um campeão! Forte, robusto e conectado o Meteor 29.520 é o novo extrapesado do Brasil! Cavalo mecânico com tração 6x4 indicado para o transporte rodoviário de carga para médias e longas distâncias.",
+    "brand": "Iveco",
+    "image": "iveco-hi-road.png",
+    "fuel": "elétrico",
+    "month_value": 1886,
+    "tags": [
+      {
+        "name": "Veículo pesado",
+        "icon": "truck"
+      },
+      {
+        "name": "3",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Volkswagen Meteor 29K",
+    "description": "Nasce um campeão! Forte, robusto e conectado o Meteor 29.520 é o novo extrapesado do Brasil! Cavalo mecânico com tração 6x4 indicado para o transporte rodoviário de carga para médias e longas distâncias.",
+    "brand": "Volkswagen",
+    "image": "volkswagen-meteor-29k.png",
+    "month_value": 1534,
+    "fuel": "elétrico",
+    "tags": [
+      {
+        "name": "Veículo pesado",
+        "icon": "truck"
+      },
+      {
+        "name": "3",
+        "icon": "users"
+      }
+    ],
+    "colors": [
+      "#C8C8C8",
+      "#131313"
+    ]
+  }
+]

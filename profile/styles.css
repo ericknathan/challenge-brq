@@ -1,0 +1,159 @@
+.container {
+  padding: 3rem 0;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#profile > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#profile > div img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 8px;
+}
+
+#profile > div #profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 38rem;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+#profile > div #profile-actions button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#profile > div #profile-actions button i {
+  color: var(--primary);
+}
+
+#profile > div #profile-actions button + button {
+  border-left: 1px solid #0002;
+  padding-left: 1rem;
+}
+
+#reservations {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#reservations > div {
+  display: flex;
+  gap: 1rem;
+  overflow: auto;
+}
+
+#reservations > input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #0002;
+}
+
+#reservations dialog[open] {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  border: none;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+#reservations dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#reservations dialog > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+#reservations dialog > h3 button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: none;
+
+  background-color: transparent;
+  
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+#reservations dialog .key-card {
+  display: flex;
+
+  width: 100%;
+  padding: 2rem;
+  aspect-ratio: 5 / 3;
+  border-radius: 0.5rem;
+
+  color: #fff;
+  background-color: var(--primary);
+  background-image: url(/assets/images/card-base.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#reservations dialog .key-card footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-top: auto;
+}
+
+#reservations dialog .key-card footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+#reservations dialog .vehicle-props {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+#reservations dialog .vehicle-props > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #0001;
+}
+
+#reservations dialog .vehicle-props > div i {
+  font-size: 2.5rem;
+}
+
+#reservations dialog .vehicle-props > div span {
+  display: flex;
+  flex-direction: column;
+}

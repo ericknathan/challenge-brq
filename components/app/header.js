@@ -1,38 +1,26 @@
 let loggedUser = {
-  name: 'Entrar',
-  avatar: './assets/images/avatar-fallback.svg',
-}
-
-async function loadCompanyData(companySlug) {
-  
-  const response = await fetch('./database/companies.json');
-  const companiesList = await response.json();
-
-  const companyData = companiesList.find(company => company.id === companySlug);
-
-  document.getElementById('company-name').innerText = companyData.name;
-  document.getElementById('divider').style.display = 'block';
-  document.getElementById('company-description').innerText = companyData.short_description;
-}
+  name: "Entrar",
+  avatar: "/assets/images/avatar-fallback.svg",
+};
 
 class Header extends HTMLElement {
   constructor() {
     super();
 
-  const companySlug = new URLSearchParams(window.location.search).get('company');
+    const company = new URLSearchParams(window.location.search).get("company");
 
-    if(companySlug) {
+    if (company || window.location.pathname.includes("profile")) {
       loggedUser = {
-        name: 'Flávio Mendes',
-        avatar: './assets/images/fake-user-avatar.png',
-      }
-
-      loadCompanyData(companySlug);
+        name: "Flávio Mendes",
+        avatar: "/assets/images/fake-user-avatar.png",
+      };
     }
+
+    import("/assets/scripts/loadCompanyData.js");
 
     this.innerHTML = `
       <style>
-        header {
+        header#app-header {
           display: flex;
           align-items: center;
         
@@ -40,41 +28,47 @@ class Header extends HTMLElement {
           border-bottom: 2px solid #1a4199;
         }
         
-        header .container {
+        header#app-header .container {
           display: flex;
           align-items: center;
           justify-content: space-between;
+          gap: 2rem;
         }
 
-        header .container > div {
+        header#app-header .container > div {
           display: flex;
           align-items: center;
+          justify-content: center;
           gap: 0.75rem;
 
           width: 90%;
           max-width: 36rem;
         }
 
-        header .container > div h1 {
+        header#app-header .container > div h1 {
           position: relative;
           
           font-size: 1.25rem;
           font-weight: 700;
         }
 
-        header .container > div #divider {
+        header#app-header .container > div #divider {
           display: none;
           flex: 1;
           height: 1px;
           background-color: #A1A1AA;
         }
 
-        header .container > div p {
+        header#app-header .container > div p {
           font-size: 1rem;
           font-weight: 400;
         }
 
-        header button {
+        header#app-header a {
+          text-decoration: none;
+        }
+
+        header#app-header a button {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -91,7 +85,7 @@ class Header extends HTMLElement {
           cursor: pointer;
         }
 
-        header button img {
+        header#app-header a button img {
           padding: 2px;
           height: 2rem;
           width: 2rem;
@@ -100,27 +94,41 @@ class Header extends HTMLElement {
           border-radius: 999px;
         }
 
-
-        header button:focus-visible {
+        header#app-header a button:focus-visible {
           outline: none;
           box-shadow: 0px 0px 0px 2px #1a419966;
         }
+
+        header#app-header a button span {
+          width: max-width;
+        }
+
+        @media (max-width: 550px) {
+          header#app-header .container > div p,
+          header#app-header .container > div #divider {
+            display: none;
+            opacity: 0;
+            position: absolute;
+          }
+        }
       </style>
     
-      <header>
+      <header id="app-header">
         <div class="container">
-          <a href="../">
-            <img src="./assets/images/logo.svg" alt="" />
+          <a href="/">
+            <img src="/assets/images/logo.svg" alt="" />
           </a>
           <div>
             <h1 id="company-name"></h1>
             <div id="divider"></div>
             <p id="company-description"></p>
           </div>
-          <button>
-            <img src="${loggedUser.avatar}" alt="Foto de perfil do usuário ${loggedUser.name}" />
-            <span>${loggedUser.name}</span>
-          </button>
+          <a href="/profile/index.html?company=${company}">
+            <button>
+              <img src="${loggedUser.avatar}" alt="Foto de perfil do usuário ${loggedUser.name}" />
+              <span>${loggedUser.name}</span>
+            </button>
+          </a>
         </div>
       </header>
     `;

@@ -68,16 +68,16 @@ class DiscoveryVehicleSection extends HTMLElement {
       <section id="discovery-vehicle">
         <div class="container">
           <img
-            src="./assets/images/vehicles-grid.png"
+            src="/assets/images/vehicles-grid.png"
             alt="Uma grade de veículos em sequência: um carro esportivo azul estacionado, uma moto preta com um motoqueiro em uma curva, um trator agronomo verde estacionado e um caminhão branco em uma rodovia. Eles simbolizam a versatilidade que a Easy Aluga oferece para empresas que querem ter seu próprio serviço de locação de veículos."
           />
           <div class="texts-container">
             <h2>Flexibilidade e opções que se adequam em seu estilo de vida.</h2>
             <p>Uma plataforma de locação de veículos projetada para atender às suas necessidades específicas, oferecendo uma experiência de aluguel de veículos personalizada e conveniente.</p>
-            <a href="./form.html">
+            <a href="/form/index.html">
               <button data-variant="solid">
                 Cadastrar minha empresa
-                <img src="./assets/icons/ph_lightbulb.svg" alt="" />
+                <img src="/assets/icons/ph_lightbulb.svg" alt="" />
               </button>
             </a>
           </div>

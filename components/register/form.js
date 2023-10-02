@@ -49,3 +49,9 @@ document.addEventListener("DOMContentLoaded", function() {
     updateForm();
   });
   
+
+const lastButton = document.getElementById("last");
+
+lastButton.addEventListener("click", function(event) {
+  window.location.href = "/company/index.html?company=auto-ride";
+});

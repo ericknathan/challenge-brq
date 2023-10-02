@@ -10,7 +10,7 @@ class HeroSection extends HTMLElement {
           align-items: center;
           justify-content: space-between;
         
-          background: url(./assets/images/background.png) no-repeat center;
+          background: url(/assets/images/background.png) no-repeat center;
           background-size: cover;
           height: calc(92vh - 6.25rem);
         }
@@ -101,7 +101,7 @@ class HeroSection extends HTMLElement {
                 Aventure-se em uma nova
                 <span>
                   experiência
-                  <img src="./assets/images/title-detail.svg" alt="" />
+                  <img src="/assets/images/title-detail.svg" alt="" />
                 </span>
                 na locação de veículos
               </h1>
@@ -112,15 +112,15 @@ class HeroSection extends HTMLElement {
               </p>
             </div>
             <div class="buttons-container">
-              <a href="./form.html">
+              <a href="/form/index.html">
                 <button data-variant="solid" class="animate__animated animate__fadeInLeft">
                   Cadastrar minha empresa
-                  <img src="./assets/icons/ph_lightbulb.svg" alt="" />
+                  <img src="/assets/icons/ph_lightbulb.svg" alt="" />
                 </button>
               </a>
-              <a href="./our-solutions.html">
+              <a href="#our-clients">
                 <button data-variant="link" class="animate__animated animate__fadeInLeft animate__fast">
-                  Nossas soluções
+                  Nossos clientes
                 </button>
               </a>
             </div>
@@ -128,7 +128,7 @@ class HeroSection extends HTMLElement {
         </div>
         <img
           class="animate__animated animate__fadeInRight" id="hero-image"
-          src="./assets/images/car-image.png"
+          src="/assets/images/car-image.png"
           alt="Um veículo automotivo pessoal branco com circulos de gradiente ao seu redor e a escrita 'Easy Aluga' em sua placa"
         />
       </section>
