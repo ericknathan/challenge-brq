@@ -131,7 +131,7 @@ class HeroSection extends HTMLElement {
           src="./assets/images/car-image.png"
           alt="Um veículo automotivo pessoal branco com circulos de gradiente ao seu redor e a escrita 'Easy Aluga' em sua placa"
         />
-      </secti>
+      </section>
     `;
   }
 }
